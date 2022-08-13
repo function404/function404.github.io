@@ -21,10 +21,8 @@ body {
 :root{
     --color-primary: rgba(0, 194, 203, 0.6);
     --color-header: rgba(0, 0, 0, 0.9);
-    --color-secondary: #0d0e0f;
     --color-header-hover: rgba(0, 0, 0, 0.9);
     --color-text: #ffffff;
-    --color-rgba: rgba(3, 126, 219, .2);
 }
 
 
@@ -201,10 +199,11 @@ footer{
     background-color: var(--color-header);
 }
 
-h6{
+h4{
     text-align: center;
     align-items: center;
     padding: 10px;
+    color: var(--color-text);
 }
 
 .buttons{
