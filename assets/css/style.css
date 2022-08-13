@@ -304,7 +304,20 @@ h4{
     transition-delay: 0.25s;
 }
 
+/* SCROLL */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 8px;
+    background-color: var(--color-header);
+}
 
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent ;
+}
 
 
 
