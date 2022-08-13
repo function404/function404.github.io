@@ -378,12 +378,12 @@ h4{
     .info{
         padding-right: 50px;
         align-items: center;
-        transition: .4s;
+        transition: .4s all ease;
     }
 
     .info2{
         padding-left: 50px;
         align-items: center;
-        transition: .4s;
+        transition: .4s all ease;
     }
 }
