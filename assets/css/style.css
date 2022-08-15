@@ -189,10 +189,6 @@ h1{
     font-size: 20px;
 }
 
-.image{
-    width: 500px;
-}
-
 .text-info{
     background-color: var(--color-primary);
     color: var(--color-text);
