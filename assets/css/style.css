@@ -83,10 +83,6 @@ body {
     margin: .5rem;
 }
 
-.logo-pi{
-    margin-left: 70px;
-    width: 60px;
-}
 
 .navbar-links ul{
     margin: 0;
@@ -129,7 +125,7 @@ body {
     border-radius: 10px;
 }
 
-/* LOGO */
+/* logo */
 h4{
     top: 2%;
     background: linear-gradient(90deg, #fff, #555, #666, #888, #777, #999, #fff);

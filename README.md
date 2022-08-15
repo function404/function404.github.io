@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-    <p><strong>Ultima atualização:</strong> 15 Ago. 2022<br><strong>Última versão:</strong> 1.7.0</p>
+    <p><strong>Ultima atualização:</strong> 15 Ago. 2022<br><strong>Última versão:</strong> 1.8.0</p>
     <p><strong>Website desenvolvido para fins de trabalho (curso).</strong></p>
     <p>>> <a target="_blank" href="https://function404.github.io/"><i>function404.github.io/</i></a> <<</p>
 </div>
