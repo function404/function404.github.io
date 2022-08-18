@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html class="html" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVDM8MHC92"></script>
-    <title>Welcome</title>
+    <title>Projects</title>
 </head>
 <body>
 
@@ -31,47 +31,27 @@
             </ul>
         </div>
     </nav>
-
-    <div class="main-image"></div>
-
     
-    <div class="box">
-        <div class="title">
-            <h1>Blogue</h1>
+    <section class="container">
+        <div class="card">
+            <div class="card-img car-1"></div>
+            <h2>Aulas de JavaScript</h2>
+            <p>Algumas coisas de JavaScript</p>
+            <a href="https://github.com/function404/JavaScriptMarcelo" target="_blank">Visite</a>
         </div>
-        <div class="project">
-            <div class="projectBx">
-                <div class="info">
-                    <h5 class="text-info">
-                        Este site é um efeito colateral dos meus experimentos com o <a class="links-txt" href="https://pages.github.com/">GitHub Pages</a>
-                        para um projeto no qual estou trabalhando. O legal das páginas do GitHub
-                        é que você pode criar o conteúdo da sua página usando o <a class="links-txt" href="https://docs.github.com/pt/get-started/writing-on-github">Flavored Markdown</a>
-                        e enviá-lo para o repositório git e o <a class="links-txt" href="https://docs.github.com/pt/get-started/writing-on-github">Jekyll</a> montará documentos de markdown
-                        para a página estática final. Neste caso o design do site é criado a partir
-                        do @media no css3.
-                    </h5>
-                </div>
-            </div>
+        <div class="card">
+            <div class="card-img car-1"></div>
+            <h2>Aulas de PHP</h2>
+            <p>Algumas coisas de PHP</p>
+            <a href="https://github.com/function404/PHPmarcelo" target="_blank">Visit</a>
         </div>
-    </div>
-
-
-
-    <div class="box2">
-        <div class="title">
-            <h1>Sobre mim</h1>
+        <div class="card">
+            <div class="card-img car-1"></div>
+            <h2>Museu Info</h2>
+            <p>Website desenvolvido para fins de trabalho (curso).</p>
+            <a href="https://github.com/drypzz/project_" target="_blank">Visit</a>
         </div>
-        <div class="project">
-            <div class="projectBx">
-                <div class="info">
-                    <h5 class="text-info">
-                        Olá me chamo Lincoln, tenho 17 anos, atualmente estudo no Senac Joinville SC ensino médio integrado ao curso tecnico de informática para internet. Gosto de progamar e desejo essa carreira, Gosto de jogos online e quando possível ando de bicicleta. 
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </section>
 
 
     <footer>
@@ -94,17 +74,16 @@
         <h4>©2022 - Function404</h4>
     </footer>
 
-    <script src="/assets/js/java.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
+    <script src="/assets/js/java.js"></script>
+
     <!-- jquery -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
     <script>
         $(window).on('load', function(){
-            $('.loader-container').fadeOut(2000);
+            $('.loader-container').fadeOut(1000);
         });
     </script>
-
 </body>
 </html>

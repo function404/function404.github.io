@@ -1,11 +1,11 @@
 # function404.github.io
 
 <div align="center">
-    <h1>Website Project</h1>
+    <h1>Site Pessoal</h1>
 </div>
 
 <div align="center">
-    <p><strong>Ultima atualização:</strong> 15 Ago. 2022<br><strong>Última versão:</strong> 1.8.0</p>
+    <p><strong>Ultima atualização:</strong> 18 Ago. 2022<br><strong>Última versão:</strong> 1.9.0</p>
     <p><strong>Website desenvolvido para fins de trabalho (curso).</strong></p>
     <p>>> <a target="_blank" href="https://function404.github.io/"><i>function404.github.io/</i></a> <<</p>
 </div>

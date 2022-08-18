@@ -20,6 +20,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: var(--color-header);
+    
 }
 
 /* loader */
@@ -54,6 +56,7 @@ body {
 
 :root{
     --color-primary: rgba(0, 194, 203, 0.6);
+    --color-primary-hover: rgba(0, 194, 203, 0.4);
     --color-secondary: rgb(173, 172, 172);
     --color-img: rgb(38, 39, 43);
     --color-header: rgba(0, 0, 0, 0.9);
@@ -82,7 +85,6 @@ body {
     font-size: 1.5rem;
     margin: .5rem;
 }
-
 
 .navbar-links ul{
     margin: 0;
@@ -125,7 +127,7 @@ body {
     border-radius: 10px;
 }
 
-/* logo */
+/* LOGO */
 h4{
     top: 2%;
     background: linear-gradient(90deg, #fff, #555, #666, #888, #777, #999, #fff);
@@ -205,15 +207,75 @@ h1{
     transition: .4s;
 }
 
-
-
-
-
 /* designer 2 */
 .box2{
     background-color: var(--color-img);
     text-align: center;
 }
+
+
+/* projetos */
+.container{
+    display: flex;
+    padding-top: 139px;
+    justify-content: center;
+    height: 78vh;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    background: var(--color-img);
+    width: 270px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px var(--color-primary);
+}
+
+.container  .card-img{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 
+}
+
+.car-1{
+    background-image: url('/assets/gfx/git.png');
+}
+
+.card h2{
+    padding: 10px;
+    color: var(--color-text);
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.card p{
+    padding: 10px;
+    color: var(--color-text);
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.card a{
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 12px;
+    font-family: 'Roboto Mono', monospace;
+    transition: .4s all ease;
+}
+
+.card a:hover{
+    background-color: var(--color-primary-hover);
+    transition: .4s all ease;
+}
+
+
+
 
 
 
@@ -375,6 +437,7 @@ h4{
     .toggle-button{
         display: flex;
         top: 21px;
+        transition: .10s all ease;
     }
 
     .navbar-links{
