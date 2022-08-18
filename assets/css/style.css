@@ -219,7 +219,7 @@ h1{
     display: flex;
     padding-top: 139px;
     justify-content: center;
-    height: 78vh;
+    height: 100vh;
     flex-wrap: wrap;
 }
 
