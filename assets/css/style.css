@@ -4,6 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+:root{
+    --color-primary: #00c2cb99;
+    --color-primary-hover: #00c2cb66;
+    --color-secondary: #adacac;
+    --color-img: rgb(38, 39, 43);
+    --color-header: rgba(0, 0, 0, 0.9);
+    --color-header-hover: rgba(0, 0, 0, 0.9);
+    --color-text: rgb(255, 255, 255);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -54,15 +64,6 @@ body {
     }
 }
 
-:root{
-    --color-primary: rgba(0, 194, 203, 0.6);
-    --color-primary-hover: rgba(0, 194, 203, 0.4);
-    --color-secondary: rgb(173, 172, 172);
-    --color-img: rgb(38, 39, 43);
-    --color-header: rgba(0, 0, 0, 0.9);
-    --color-header-hover: rgba(0, 0, 0, 0.9);
-    --color-text: rgb(255, 255, 255);
-}
 
 
 
@@ -219,7 +220,7 @@ h1{
     display: flex;
     padding-top: 139px;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     flex-wrap: wrap;
 }
 
@@ -479,6 +480,11 @@ h4{
     .text-info{
         text-align: center;
     }
+
+    .container{
+        height: 160vh;
+        padding: 70px;
+    }
 }   
 
 @media (max-width: 1130px){
@@ -486,5 +492,12 @@ h4{
         padding: 10px 50px 50px 50px;
         text-align: center;
         transition: .4s;
+    }
+}
+
+@media (max-width: 939px){
+    .container{
+        height: 100vh;
+        padding: 70px;
     }
 }
