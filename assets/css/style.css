@@ -433,6 +433,8 @@ h4{
     }
 }
 /* RESPONSIVIDADE */
+
+
 @media (max-width: 730px){
     /* NAVBAR */
     .toggle-button{
@@ -498,6 +500,13 @@ h4{
 @media (max-width: 939px){
     .container{
         height: 100vh;
+        padding: 70px;
+    }
+}
+
+@media (max-width: 769px){
+    .container{
+        height: 150vh;
         padding: 70px;
     }
 }
